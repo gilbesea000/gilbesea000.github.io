@@ -1,27 +1,87 @@
-<!DOCTYPE HTML>
-<html lang="en">
-    <head>
-        <title></title>
+<!DOCTYPE html>
+<html>
+<title></title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.w3-sidebar {width: 120px;background: #222;}
+#main {margin-left: 120px}
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <img src="NANI.png" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+<div class="w3-padding-large" id="main">
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">Hi it's</span> Sean.</h1>
+    <p>I make art and websites.</p>
+    <img src="NANI.png" alt="boy" class="w3-image" width="992" height="1108">
+  </header>
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">My Name</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>My name is Sean Gilbert, I'm an digital artist and a web designer in my spare time. I have plenty of hobbies that I like to work on, such as trying my hand at music, game design, and ever voice acting. I get around when I can and I'm sometimes too ambitious for my own good, but I make it work.
+    </p>
+     <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">Some of my works</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="for KANE.png" style="width:100%">
+        <img src="IKANEI.png" style="width:100%">
+        <img src="REXPFP.png" style="width:100%">
+      </div>
 
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="style.css" >
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="JQUERY.js" async></script>
-    </head>
-    <body>
-        <h1></h1>
-        
-        <section>
-            <div class="btn-group-vertical">
-                <button type="button" class="btn btn-primary">Home</button>
-                <button type="button" class="btn btn-primary">Works</button>
-                <button type="button" class="btn btn-primary">About Me</button>
-                <button type="button" class="btn btn-primary">Contact</button>
-                </div>
-        </section>
-    </body>
+      <div class="w3-half">
+        <img src="DeathCharacter.png" style="width:100%">
+        <img src="baseball bat.png" style="width:100%">
+        <img src="All Rex's So Far.png" style="width:100%">
+        <img src="Double D.png" style="width:100%">
+      </div>
+    </div>
+  </div>
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Get in Contact with me using this email.</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> gilbesea000@warren.k12.in.us</p>
+    </div><br>
+  </div>
+    <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+  </footer>
+</div>
+
+</body>
 </html>
